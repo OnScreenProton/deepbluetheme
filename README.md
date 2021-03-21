@@ -1,3 +1,3 @@
 # deepbluetheme
  
-![Alt text](https://i.imgur.com/2QJBWYW.png?raw=true)
+![Alt text](https://i.imgur.com/ZQcnKbm.png?raw=true)
