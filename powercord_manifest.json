@@ -1,0 +1,8 @@
+{
+    "name": "Protoncord",
+    "description": "Custom theme for Onscreenproton#8179",
+    "version": "1.0",
+    "author": "Onscreenproton#8179",
+    "theme": "Base.scss",
+    "license": "MIT"
+}

@@ -1,0 +1,199 @@
+/* SIDEBAR */
+.sidebar-2K8pFh {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 57px;
+    border-radius: 8px !important;
+}
+.container-3w7J-x {
+    border-radius: 8px !important;
+    background-color: var(--primary);
+}
+.app-1q1i1E{margin-left:10px;}
+.children-19S4PO{
+    position:relative;
+    padding:5px 5px 5px 5px;
+    margin-right:40px;
+    background-color: var(--tertiary);
+    border-radius:8px !important;
+}
+.content-1x5b-n {
+    border-radius: 50px;
+}
+.modeSelected-346R90 .content-1x5b-n, .modeSelected-346R90:hover .content-1x5b-n {
+    background-color: var(--accent-alpha);
+}
+
+/* DMS */
+.container-1D34oG {
+    background-color: var(--primary) !important;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.tabBody-3YRQ8W {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    background-color: var(--primary);
+}
+.nowPlayingColumn-2sl4cE {
+    border-radius: 8px;
+    margin-right: 10px;
+}
+.section-2gLsgF {
+    background-color: var(--tertiary);
+}
+.privateChannels-1nO12o {
+    border-radius: 8px !important;
+    background-color: var(--primary);
+}
+.scroller-1JbKMe {
+    background-color: var(--primary);
+}
+.selected-aXhQR6 .layout-2DM8Md {
+    background-color: var(--accent-alpha);
+}
+.resultFocused-3aIoYe {
+    background-color: var(--primary);
+}
+.peopleList-3c4jOR {
+    background-color: var(--primary);
+}
+
+/* USER SETTINGS AND ETC */
+.container-3baos1 { 
+    height:47px;
+    background-color: var(--primary);
+    border-radius: 8px;
+    position: absolute;
+    top: 0px;
+    left:10px;
+    width:225px;
+}
+
+/* SERVERLIST */
+.members-1998pB{
+    border-radius:8px;
+    margin-right:10px;
+}
+
+/* MEMBERLIST */
+.membersWrap-2h-GB4{
+    margin-bottom:10px;
+    margin-top:10px;
+}
+.members-1998pB, .members-1998pB>div {
+    background-color: var(--tertiary);
+}
+
+/* CHAT */
+.chat-3bRxxu {
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.mentioned-xhSam7 {
+    background-color: var(--mention-color)
+}
+.mouse-mode.full-motion .mentioned-xhSam7:hover {
+    background-color: var(--mention-color-alt2)
+}
+.mentioned-xhSam7::before {
+    background-color: var(--mention-color-alt)
+}
+.newMessagesBar-265mhP {
+    background-color: var(--accent);
+}
+.autocomplete-1vrmpx {
+    background-color: var(--secondary) !important;
+}
+.selected-1Tbx07 {
+    background-color: var(--tertiary) !important;
+}
+
+/* TEXTBAR */
+.channelTextArea-rNsIhG {
+    margin-bottom: 15px;
+}
+.typing-2GQL18 {
+    height: 12px;
+}
+.base-gE7OpD {
+    position: relative;
+    bottom: 13px;
+    left:0px;
+    font-size: 11px;
+}
+.scrollableContainer-2NUZem {
+    background-color: var(--secondary);
+}
+.base-gE7OpD .slowModeIcon-1BPDC_ {
+    position: relative;
+    height: 10px;
+    bottom: 0.75px;
+}
+
+/* HEADER */
+.theme-dark .children-19S4PO:after {
+    background:none;
+}
+.title-29uC1r {
+    color:#ffffff;
+}
+
+/* SEARCHBAR */
+.theme-dark .option-96V44q.selected-rZcOL-, .theme-dark .option-96V44q.selected-rZcOL-:after {
+    background: var(--tertiary);
+}
+/* CHANNEL SETTINGS */
+.theme-dark .elevationHigh-1PneE4 {
+    background-color: var(--secondary) !important;
+}
+.theme-dark .focused-2bY0OD {
+    background-color: var(--secondary);
+}
+
+/* MISC */
+.username-1A8OIy { /* usernames are white */
+    color: #ffffff;
+}
+.name-1jkAdW, .tierTooltipTitle-3AtaZT { /* channel names are white */
+    color:#ffffff;
+}
+.theme-dark .searchAnswer-3Dz2-q, .theme-dark .searchFilter-2ESiM3 { /* seach hove is white */
+    background:var(--tertiary);
+}
+.mediaBarGrabber-1FqnbN, .mediaBarProgress-1xaPtl, .mediaBarProgress-1xaPtl:after, .mediaBarProgress-1xaPtl:before { /* video bar is accent */
+    background-color: var(--accent);
+}
+.mediaBarPreview-1jfyFs, .mediaBarPreview-1jfyFs:after, .mediaBarPreview-1jfyFs:before { /* video progress bar bubble is accent */
+    background-color: var(--accent);
+}
+.mediaBarInteraction-37i2O4:hover .mediaBarGrabber-1FqnbN { /* media bar again */
+    background-color: var(--accent);
+}
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 { /* follow channel button is white */
+    background-color: var(--accent);
+}
+
+/* SPOTIFY */
+.powercord-spotify .spotify-seek-elements {
+    padding-top: 10px !important;
+}
+
+/* BAR MENTIONS */
+.mentionsBadge-3tC7Mi {
+    padding-left: 11px;
+}
+.mentionsBadge-3tC7Mi .base-PmTxvP {
+    --ping-width: 30px;
+    width:var(--ping-width) !important;
+    min-height: 1px !important;
+    height: 5px !important;
+}
+.mentionsBadge-3tC7Mi .numberBadge-2s8kKX{
+    font-size: 14px;
+    text-align: left;
+    text-indent:calc(var(--ping-width)-26px);
+}
