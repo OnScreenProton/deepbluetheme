@@ -60,6 +60,9 @@
 .peopleList-3c4jOR {
     background-color: var(--primary);
 }
+.colorDefault-2K3EoJ.focused-3afm-j {
+    background-color: var(--accent);
+}
 
 /* USER SETTINGS AND ETC */
 .container-3baos1 { 
@@ -70,6 +73,12 @@
     top: 0px;
     left:10px;
     width:225px;
+}
+.lookFilled-1Gx00P.colorGrey-2DXtkV {
+    background-color: var(--secondary);
+}
+.side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
+    background-color: var(--secondary);
 }
 
 /* SERVERLIST */

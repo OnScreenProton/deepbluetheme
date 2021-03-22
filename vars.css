@@ -44,6 +44,7 @@
   --text-link: var(--accent);
   --focus-primary: var(--accent);
   --background-modifier-accent: var(--tertiary);
+  --background-modifier-selected: var(--secondary);
   --background-modifier-hover: var(--tertiary);
   --background-modifier-active: var(--tertiary);
   --header-primary: var(--accent);
