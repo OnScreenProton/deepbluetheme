@@ -12,7 +12,8 @@ Mention icons based on Pavy#6125's Nebula 3 mention icons.
 USRBG by Discord-Custom-Covers
 
 # Addons
-Watermark by Liam The Protogen#2501
+Watermark by Liam The Protogen#2501 edited to import the font properly by me
+
 profile-modals by Discord-Custom-Covers
 
 # Windows 10 Preview
