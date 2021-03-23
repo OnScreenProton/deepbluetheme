@@ -20,10 +20,11 @@
   --mention-color: rgba(64, 106, 191, 0.2);      /* default: rgba(64, 106, 191, 0.2) */
   --mention-color-alt: rgba(64, 106, 191, 0.4);  /* default: rgba(64, 106, 191, 0.4) */
   --mention-color-alt2: rgba(64, 106, 191, 0.1); /* default: rgba(64, 106, 191, 0.1) */
+  --ping-width: 30px;                              /* default: 30px */
 
   /* powercord */
   --spotify-color: var(--accent) !important;
-  --toast-header: var(--econdary) !important;
+  --toast-header: var(--secondary) !important;
   --toast-background: var(--primary) !important;
   --toast-border: var(--tertiary) !important;
   --toast-contents: var(--secondary) !important;
@@ -47,7 +48,7 @@
   --background-modifier-selected: var(--secondary);
   --background-modifier-hover: var(--tertiary);
   --background-modifier-active: var(--tertiary);
-  --header-primary: var(--accent);
+  --header-primary: #fff;
   --background-floating: var(--secondary);
   --deprecated-text-input-border: var(--tertiary);
   --deprecated-card-editable-bg: var(--secondary);
