@@ -1,13 +1,15 @@
 # deepbluetheme
 
 A simple deep blue theme for discord using atom's One Dark Ui palette.
-Currently only powercord is supported
 
 Please let me (Onscreenproton#8179) know of any issues related to the theme.
 
 # Credits
-Inspired by bubblecord by Doggybootsy#1333
+General ui inspired by bubblecord by Doggybootsy#1333
+
 Mention icons based on Pavy#6125's Nebula 3 mention icons.
+
+USRBG by Discord-Custom-Covers
 
 # Addons
 Watermark by Liam The Protogen#2501
@@ -22,4 +24,4 @@ Powercord:
 
 Betterdiscord:
 
-soon™
+Download deepbluetheme.theme.css and put it in your themes directory
