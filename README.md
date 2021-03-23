@@ -24,5 +24,4 @@ Powercord:
 ```cd powercord/src/Powercord/themes && git clone https://github.com/OnScreenProton/deepbluetheme```
 
 Betterdiscord:
-
-Download deepbluetheme.theme.css and put it in your themes directory
+soon™️
