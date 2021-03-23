@@ -1,5 +1,5 @@
 /* watermark */
-@import url("https://aokiare.github.io/addons/DiscordFont.css"); /* Discord Font */
+@import url(./assets/uni-sans.heavy-caps.otf); /* Discord Font */
 
 .wordmark-2iDDfm svg {
   width: 0px;
@@ -7,7 +7,7 @@
 
 .wordmark-2iDDfm::after {
   position: absolute;
-  font-family: "Discord";
+  font-family: "Uni Sans Heavy";
   content: "deepblue";
   font-size: 14px;
   background: var(--accent); /* #72767d for default color */
