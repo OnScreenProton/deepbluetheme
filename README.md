@@ -19,5 +19,7 @@ profile-modals by Discord-Custom-Covers
 # Installation
 Powercord: 
 ```cd powercord/src/Powercord/themes && git clone https://github.com/OnScreenProton/deepbluetheme```
+
 Betterdiscord:
+
 soon™
