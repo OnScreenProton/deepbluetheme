@@ -29,6 +29,7 @@
 .topSectionNormal-2-vo2m *, .topSectionSpotify-1lI0-P *, .topSectionPlaying-1J5E4n *, .topSectionStreaming-1Tpf5X *, .body-3ND3kc { z-index: 1;}
 
 .profileBadges-2vWUYb {
+	padding-left: 5px;
 	width: 280px;
 	display: flex;
 	flex-wrap: wrap;
