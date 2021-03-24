@@ -8,10 +8,15 @@
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
-    margin-top: 57px;
 }
 .container-3w7J-x {
+    border-radius: 8px !important;
+    order: 2;
     background-color: var(--primary);
+}
+.animatedContainer-1NSq4T, .bannerImage-3KhIJ6 {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 .app-1q1i1E{margin-left:10px;}
 .children-19S4PO{
@@ -65,19 +70,30 @@
 }
 
 /* USER SETTINGS AND ETC */
-.container-3baos1 { 
+.container-3baos1::before,
+.container-3w7J-x::before {
+    display: flex;
+    flex-flow: column;
+}
+.container-3baos1::after {
+    flex-flow: row;
+}
+.container-3baos1 {
+    order: 1;
     height:47px;
     background-color: var(--primary);
     border-radius: 8px;
-    position: absolute;
-    top: 0px;
-    left:10px;
     width:225px;
+    margin-bottom: 10px;
 }
 .closeButton-1tv5uR,
-.lookFilled-1Gx00P.colorGrey-2DXtkV {
+.lookFilled-1Gx00P.colorGrey-2DXtkV,
+.option-n0icdO {
     background-color: var(--secondary) !important;
     border-color: var(--secondary) !important;
+}
+.disabledIcon-9QatvX {
+    color: var(--secondary);
 }
 .lookGhost-2Fn_0-.colorGrey-2DXtkV {
     color: var(--secondary-alpha);
@@ -95,20 +111,29 @@
 .container-3auIfb,
 .input-rwLH4i {
     background-color: var(--tertiary) !important;
-}
+} 
 .userSettingsVoice-iwdUCU .inputSensitivityToggle-2LKb8o .sliderBar-3DezvM,
 .bar-2Qqk5Z {
     background-color: var(--tertiary-alpha) !important;
 }
 .barFill-23-gu-,
-.lookFilled-1Gx00P.colorBrand-3pXr91 {
-    background-color: var(--accent);
+.lookFilled-1Gx00P.colorBrand-3pXr91,
+.selected-mKYnfr.option-n0icdO,
+.checkbox-1ix_J3 {
+    background-color: var(--accent) !important;
+}
+.wrapper-3jrx9n,
+.checkbox-1ix_J3 {
+    border-color: var(--accent) !important;
 }
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
     background-color: var(--accent-alpha);
 }
 .userSettingsVoice-iwdUCU .sliderBar-3DezvM.speaking-2bFhO4 {
     background-color: #69c49a !important;
+}
+.notDetected-33MY4s .gameName-1RiWHm {
+    color:#fff !important;
 }
 
 /* SERVERLIST */
@@ -131,8 +156,16 @@
 }
 
 /* CHAT */
+.colorStreamerMode-2SJAUN,
 .chat-3bRxxu {
     border-radius: 8px;
+}
+.colorStreamerMode-2SJAUN {
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.chat-3bRxxu {
     margin-right: 10px;
     margin-bottom: 10px;
 }
@@ -150,6 +183,9 @@
 }
 .selected-1Tbx07 {
     background-color: var(--tertiary) !important;
+}
+.mouse-mode.full-motion .message-2qnXI6:hover {
+    background-color: var(--tertiary-alpha);
 }
 .newMessagesBar-265mhP {
     background-color: var(--accent);
