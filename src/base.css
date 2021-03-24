@@ -13,6 +13,7 @@
     border-radius: 8px !important;
     order: 2;
     background-color: var(--primary);
+    margin-top: 10px;
 }
 .animatedContainer-1NSq4T, .bannerImage-3KhIJ6 {
     border-top-left-radius: 8px;
@@ -72,13 +73,20 @@
 }
 
 /* USER SETTINGS AND ETC */
-.container-3baos1::before,
-.container-3w7J-x::before {
-    display: flex;
-    flex-flow: column;
+.panels-j1Uci_ {
+    border-radius: 8px;
+    background-color: var(--primary);
 }
-.container-3baos1::after {
-    flex-flow: row;
+
+.container-3baos1::before,
+.container-3w7J-x::before,
+.wrapper-24pKcD::before {
+    display: flex !important;
+    flex-flow: column !important;
+}
+.container-3baos1::after,
+.wrapper-24pKcD::after {
+    flex-flow: column;
 }
 .container-3baos1 {
     order: 1;
@@ -86,7 +94,9 @@
     background-color: var(--primary);
     border-radius: 8px;
     width:225px;
-    margin-bottom: 10px;
+}
+.wrapper-24pKcD {
+    order: 3;
 }
 .closeButton-1tv5uR,
 .lookFilled-1Gx00P.colorGrey-2DXtkV,
@@ -131,11 +141,17 @@
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
     background-color: var(--accent-alpha);
 }
+.colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) {
+    background-color: var(--accent-light);
+}
 .userSettingsVoice-iwdUCU .sliderBar-3DezvM.speaking-2bFhO4 {
     background-color: #69c49a !important;
 }
 .notDetected-33MY4s .gameName-1RiWHm {
     color:#fff !important;
+}
+.connectionHeader-2MDqhu {
+    border-radius: 8px;
 }
 
 /* SERVERLIST */
@@ -257,11 +273,6 @@
     border-radius: 8px !important;
     margin-bottom: 10px;
     margin-right: 10px;
-}
-
-/* SPOTIFY */
-.powercord-spotify .spotify-seek-elements {
-    padding-top: 10px !important;
 }
 
 /* BAR MENTIONS */
