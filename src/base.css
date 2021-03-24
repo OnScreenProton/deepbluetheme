@@ -65,7 +65,9 @@
     background-color: var(--accent-alpha);
 }
 
-.colorDefault-2K3EoJ.focused-3afm-j {
+.colorDefault-2K3EoJ.focused-3afm-j,
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
+.wrapper-1BJsBx:hover .childWrapper-anI2G9 {
     background-color: var(--accent);
 }
 
@@ -250,6 +252,11 @@
 .mediaBarPreview-1jfyFs:before,
 .lookFilled-1Gx00P.colorPrimary-3b3xI6 { /* video bar is accent */
     background-color: var(--accent) !important;
+}
+.applicationStore-1pNvnv { /* Nitro purchase window has curved borders and margins */
+    border-radius: 8px !important;
+    margin-bottom: 10px;
+    margin-right: 10px;
 }
 
 /* SPOTIFY */
