@@ -1,6 +1,6 @@
 {
-    "name": "Protoncord",
-    "description": "Custom theme for Onscreenproton#8179",
+    "name": "deepbluetheme",
+    "description": "A simple deep blue theme for discord using atom's One Dark Ui palette.",
     "version": "1.0",
     "author": "Onscreenproton#8179",
     "theme": "Base.scss",
