@@ -9,11 +9,14 @@
     margin-right: 10px;
     margin-bottom: 10px;
 }
+.container-3w7J-x,
+.privateChannels-1nO12o {
+    order: 2;
+    margin-top: 10px;
+}
 .container-3w7J-x {
     border-radius: 8px !important;
-    order: 2;
     background-color: var(--primary);
-    margin-top: 10px;
 }
 .animatedContainer-1NSq4T, .bannerImage-3KhIJ6 {
     border-top-left-radius: 8px;
@@ -80,7 +83,8 @@
 
 .container-3baos1::before,
 .container-3w7J-x::before,
-.wrapper-24pKcD::before {
+.wrapper-24pKcD::before,
+.privateChannels-1nO12o::before {
     display: flex !important;
     flex-flow: column !important;
 }
@@ -207,6 +211,9 @@
 }
 .newMessagesBar-265mhP {
     background-color: var(--accent);
+}
+.interactive:hover {
+    background-color: var(--accent-light);
 }
 
 /* TEXTBAR */
