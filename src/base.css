@@ -192,10 +192,10 @@
     margin-bottom: 10px;
 }
 .mentioned-xhSam7 {
-    background-color: var(--mention-color)
+    background-color: var(--mention-color);
 }
 .mouse-mode.full-motion .mentioned-xhSam7:hover {
-    background-color: var(--mention-color-alt2)
+    background-color: var(--mention-color-alt2) !important;
 }
 .mentioned-xhSam7::before {
     background-color: var(--mention-color-alt);
@@ -256,6 +256,32 @@
     background-color: var(--secondary) !important;
 }
 
+/* VOICECHANNEL */
+.colorable-1bkp8v.white-3GPOIp {
+    background-color: var(--accent) !important;
+}
+.colorable-1bkp8v.white-3GPOIp:hover {
+    background-color: var(--accent-dark) !important;
+}
+.colorable-1bkp8v.white-3GPOIp .centerIcon-2G6o-T,
+.colorable-1bkp8v.white-3GPOIp .centerIcon-2G6o-T:hover {
+    color: #fff !important;
+}
+.colorable-1bkp8v.primaryDark-3mSFDl {
+    background-color: var(--tertiary) !important;
+}
+.colorable-1bkp8v.primaryDark-3mSFDl:hover {
+    background-color: var(--secondary) !important;
+}
+.leftTrayIcon-vpfJk5,
+.button-3HqqDX {
+    background-color: var(--tertiary);
+}
+.tile-2naSqK {
+    background-color: var(--secondary);
+}
+
+
 /* MISC */
 .username-1A8OIy,
 .name-1jkAdW,
@@ -275,6 +301,9 @@
 .mediaBarPreview-1jfyFs:before,
 .lookFilled-1Gx00P.colorPrimary-3b3xI6 { /* video bar is accent */
     background-color: var(--accent) !important;
+}
+.directionColumn-35P_nr {
+    background: transparent !important;
 }
 .applicationStore-1pNvnv { /* Nitro purchase window has curved borders and margins */
     border-radius: 8px !important;
