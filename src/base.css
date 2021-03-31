@@ -310,12 +310,15 @@
     margin-bottom: 10px;
     margin-right: 10px;
 }
+.iconWrapper-2OrFZ1 .clickable-3rdHwn {
+    display:none;
+}
 
 /* BAR MENTIONS */
 .mentionsBadge-3tC7Mi {
     padding-left: 11px;
 }
-.mentionsBadge-3tC7Mi .base-PmTxvP {
+.anchor-3Z-8Bb .anchorUnderlineOnHover-2ESHQB {
     width:var(--ping-width) !important;
     min-height: 1px !important;
     height: 5px !important;
