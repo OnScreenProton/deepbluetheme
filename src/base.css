@@ -43,7 +43,7 @@
 .peopleList-3c4jOR,
 .tabBody-3YRQ8W,
 .privateChannels-1nO12o,
-.container-1D34o {
+.container-1D34oG {
     background-color: var(--primary) !important;
 }
 .container-1D34oG,
@@ -217,13 +217,22 @@
 }
 
 /* TEXTBAR */
+.channelTextArea-rNsIhG,
+.base-gE7OpD,
+.typing-2GQL18 {
+    display: flex !important;
+    flex-flow: column !important;
+}
 .channelTextArea-rNsIhG {
+    order: 2;
     margin-bottom: 15px;
 }
 .typing-2GQL18 {
+    order: 1;
     height: 12px;
 }
 .base-gE7OpD {
+    order: 1;
     position: relative;
     bottom: 13px;
     left:0px;
@@ -246,9 +255,16 @@
 }
 
 /* SEARCHBAR */
-.option-96V44q.selected-rZcOL-,
-.option-96V44q.selected-rZcOL-:after {
+.container-3ayLPN {
+    background-color: var(--tertiary) !important;
+}
+.option-96V44q,
+.option-96V44q:after {
     background: var(--tertiary) !important;
+}
+.option-96V44q:hover,
+.option-96V44q:hover::after {
+    background-color: var(--secondary) !important;
 }
 /* CHANNEL SETTINGS */
 .elevationHigh-1PneE4,
@@ -303,7 +319,7 @@
     background-color: var(--accent) !important;
 }
 .directionColumn-35P_nr {
-    background: transparent !important;
+    background: none !important;
 }
 .applicationStore-1pNvnv { /* Nitro purchase window has curved borders and margins */
     border-radius: 8px !important;
@@ -314,6 +330,10 @@
     display:none;
 }
 
+.modal-yWgWj-,
+.footer-2gL1pp {
+    background-color: var(--secondary) !important;
+}
 /* BAR MENTIONS */
 .mentionsBadge-3tC7Mi {
     padding-left: 11px;
@@ -327,4 +347,12 @@
     font-size: 14px;
     text-align: left;
     text-indent:calc(var(--ping-width)-26px);
+}
+
+/* BAR PILLS */
+.unread-2lAfLh,
+.item-2hkk8m {
+    border-radius: 4px;
+    width: 8px;
+    left: 4px;
 }

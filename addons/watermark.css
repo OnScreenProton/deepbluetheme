@@ -5,7 +5,7 @@
   src: url("https://raw.githubusercontent.com/powercord-org/powercord-backend/my-awesome-branch/web/src/assets/discord-font.otf") format("opentype");
 }
 .wordmark-2iDDfm:after {
-  content: "ONEDARKUI";
+  content: "DEEPBLUETHEME";
   font-size: 15px;
   position: absolute;
   width: 4000px;
