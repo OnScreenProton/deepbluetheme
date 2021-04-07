@@ -217,22 +217,13 @@
 }
 
 /* TEXTBAR */
-.channelTextArea-rNsIhG,
-.base-gE7OpD,
-.typing-2GQL18 {
-    display: flex !important;
-    flex-flow: column !important;
-}
 .channelTextArea-rNsIhG {
-    order: 2;
     margin-bottom: 15px;
 }
 .typing-2GQL18 {
-    order: 1;
     height: 12px;
 }
 .base-gE7OpD {
-    order: 1;
     position: relative;
     bottom: 13px;
     left:0px;
@@ -347,6 +338,9 @@
     font-size: 14px;
     text-align: left;
     text-indent:calc(var(--ping-width)-26px);
+}
+.root-1gCeng {
+    background-color: var(--tertiary) !important;
 }
 
 /* BAR PILLS */
