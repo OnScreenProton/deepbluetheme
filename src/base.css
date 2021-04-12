@@ -65,6 +65,9 @@
 .section-2gLsgF {
     background-color: var(--tertiary);
 }
+.layout-2DM8Md:hover {
+    background-color: var(--accent-alpha) !important;
+}
 .selected-aXhQR6 .layout-2DM8Md {
     background-color: var(--accent-alpha);
 }
@@ -236,6 +239,9 @@
     position: relative;
     height: 10px;
     bottom: 0.75px;
+}
+.categoryHeader-O1zU94 {
+    background-color: var(--secondary);
 }
  /* HEADER */
 .children-19S4PO:after {
