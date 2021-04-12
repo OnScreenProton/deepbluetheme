@@ -117,17 +117,17 @@
 .closeButton-1tv5uR:hover,
 .lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
     background-color: var(--accent-alpha) !important;
-    border-color: var(--secondary-alpha) !important;
+    border-color: #fff !important;
 }
 .card-FDVird:before,
 .notDetected-33MY4s {
     background-color: var(--tertiary) !important;
     border-color: var(--tertiary) !important;
 }
-.container-3auIfb,
+/* .container-3auIfb,
 .input-rwLH4i {
     background-color: var(--tertiary) !important;
-} 
+} */
 .userSettingsVoice-iwdUCU .inputSensitivityToggle-2LKb8o .sliderBar-3DezvM,
 .bar-2Qqk5Z {
     background-color: var(--tertiary-alpha) !important;
@@ -309,9 +309,6 @@
 .lookFilled-1Gx00P.colorPrimary-3b3xI6 { /* video bar is accent */
     background-color: var(--accent) !important;
 }
-.directionColumn-35P_nr {
-    background: none !important;
-}
 .applicationStore-1pNvnv { /* Nitro purchase window has curved borders and margins */
     border-radius: 8px !important;
     margin-bottom: 10px;
@@ -320,7 +317,19 @@
 .iconWrapper-2OrFZ1 .clickable-3rdHwn {
     display:none;
 }
-
+.uploadModal-2ifh8j,
+.footer-3mqk7D { /* Upload modal */
+    background-color: var(--tertiary) !important;
+}
+.checkbox-1ix_J3 svg path {
+    fill: #fff !important;
+}
+.checkbox-1ix_J3:not(.checked-3_4uQ9) svg path {
+    fill: transparent !important;
+}
+.colorDefault-2K3EoJ .checkbox-3s5GYZ, .colorDefault-2K3EoJ .radioSelection-1HmrQS {
+    color: var(--accent);
+}
 .modal-yWgWj-,
 .footer-2gL1pp {
     background-color: var(--secondary) !important;
@@ -329,12 +338,10 @@
 .mentionsBadge-3tC7Mi {
     padding-left: 11px;
 }
-.anchor-3Z-8Bb .anchorUnderlineOnHover-2ESHQB {
+.mentionsBadge-3tC7Mi .numberBadge-2s8kKX{
     width:var(--ping-width) !important;
     min-height: 1px !important;
-    height: 5px !important;
-}
-.mentionsBadge-3tC7Mi .numberBadge-2s8kKX{
+    height: 8px !important;
     font-size: 14px;
     text-align: left;
     text-indent:calc(var(--ping-width)-26px);
@@ -346,7 +353,12 @@
 /* BAR PILLS */
 .unread-2lAfLh,
 .item-2hkk8m {
+    z-index: 1;
     border-radius: 4px;
     width: 8px;
     left: 4px;
+}
+
+.header-1TKi98 {
+    background: none !important;
 }
