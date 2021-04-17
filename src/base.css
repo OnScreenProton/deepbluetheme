@@ -133,7 +133,7 @@
 } */
 .userSettingsVoice-iwdUCU .inputSensitivityToggle-2LKb8o .sliderBar-3DezvM,
 .bar-2Qqk5Z {
-    background-color: var(--tertiary-alpha) !important;
+    background-color: var(--tertiary) !important;
 }
 .barFill-23-gu-,
 .lookFilled-1Gx00P.colorBrand-3pXr91,
@@ -165,6 +165,9 @@
 .members-1998pB{
     border-radius:8px;
     margin-right:10px;
+}
+.expandedFolderBackground-1cujaW {
+    background-color: var(--tertiary-alpha);
 }
 
 /* MEMBERLIST */
@@ -227,8 +230,9 @@
     height: 12px;
 }
 .base-gE7OpD {
-    position: relative;
-    bottom: 13px;
+    order: 1;
+    position: absolute;
+    bottom: 62px;
     left:0px;
     font-size: 11px;
 }
@@ -339,6 +343,9 @@
 .modal-yWgWj-,
 .footer-2gL1pp {
     background-color: var(--secondary) !important;
+}
+.scroller-3__pG8 { /* Server Invite */
+    background-color: var(--tertiary);
 }
 /* BAR MENTIONS */
 .mentionsBadge-3tC7Mi {
