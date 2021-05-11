@@ -9,7 +9,7 @@ Please let me (Onscreenproton#8179) know of any issues related to the theme.
 # Credits
 General ui inspired by bubblecord by Doggybootsy#1333
 
-Mention icons based on Pavy#6125's Nebula 3 mention icons.
+Mention icons are the same design as Pavy#6125's Nebula 3 mention icons.
 
 USRBG by Discord-Custom-Covers
 
