@@ -31,4 +31,5 @@ Vizality:
 idk how vizality works
 
 Betterdiscord:
-[link to file](https://github.com/onscreenproton/deepbluetheme/Compiled_CSS/deepblue.theme.css)
+[raw useable theme](https://raw.githubusercontent.com/OnscreenProton/deepbluetheme/main/Compiled_CSS/deepblue.theme.css)
+[raw imported theme](https://raw.githubusercontent.com/OnscreenProton/deepbluetheme/main/Compiled_CSS/deepblueimport.css)
