@@ -211,6 +211,9 @@
 .mentioned-xhSam7::before {
     background-color: var(--mention-color-alt);
 }
+.message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z, .mouse-mode.full-motion .mentioned-xhSam7:hover {
+    background-color: var(--mention-color-alt);
+}
 .autocomplete-1vrmpx {
     background-color: var(--secondary) !important;
 }
@@ -370,6 +373,15 @@
 .outer-1AjyKL,
 .outer-1AjyKL.interactive-3B9GmY:hover {
     background-color: var(--primary) !important;
+}
+.invite-18yqGF {
+    background-color: var(--tertiary) !important;
+}
+.tile-2OwFgW {
+    background-color: var(--secondary) !important;
+}
+.invalidPoop-pnUbq7 {
+    background-color: var(--tertiary-alpha) !important;
 }
 /* BAR MENTIONS */
 .mentionsBadge-3tC7Mi {
