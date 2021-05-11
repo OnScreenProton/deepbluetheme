@@ -13,7 +13,7 @@ Mention icons are the same design as Pavy#6125's Nebula 3 mention icons.
 
 USRBG by Discord-Custom-Covers
 
-Discord watermark font by powercord-org
+Discord watermark font provided by powercord-org
 
 # Addons
 Watermark by Liam The Protogen#2501 edited to import the font properly by me
@@ -31,4 +31,4 @@ Vizality:
 idk how vizality works
 
 Betterdiscord:
-[link to file](https://github.com/onscreenproton/deepbluetheme/Compiled_CSS/deepbluetheme.theme.css)
+[link to file](https://github.com/onscreenproton/deepbluetheme/Compiled_CSS/deepblue.theme.css)
