@@ -1,3 +1,13 @@
+/**
+ * @name deepbluetheme
+ * @description A simple deep blue theme for discord using atom's One Dark Ui palette.
+ * @author Onscreenproton#8179
+ * @version 1.0.0
+ * @source https://github.com/onscreenproton/deepbluetheme
+ * @updateUrl https://raw.githubusercontent.com/onscreenproton/deepbluetheme/Compiled_CSS/deepbluetheme.theme.css
+*/
+
+
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 ::-webkit-input-placeholder, body, button, input, select, textarea {

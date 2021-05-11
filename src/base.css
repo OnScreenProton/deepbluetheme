@@ -36,6 +36,9 @@
 .modeSelected-346R90:hover .content-1x5b-n {
     background-color: var(--accent-alpha);
 }
+.folder-1hbNCn {
+    background-color: var(--tertiary-alpha);
+}
 
 /* DMS */
 .scroller-1JbKMe,
@@ -109,7 +112,7 @@
 .lookFilled-1Gx00P.colorGrey-2DXtkV,
 .option-n0icdO {
     background-color: var(--secondary) !important;
-    border-color: var(--secondary) !important;
+    border-color: rgb(165, 165, 165) !important;
 }
 .disabledIcon-9QatvX {
     color: var(--secondary);
@@ -127,10 +130,6 @@
     background-color: var(--tertiary) !important;
     border-color: var(--tertiary) !important;
 }
-/* .container-3auIfb,
-.input-rwLH4i {
-    background-color: var(--tertiary) !important;
-} */
 .userSettingsVoice-iwdUCU .inputSensitivityToggle-2LKb8o .sliderBar-3DezvM,
 .bar-2Qqk5Z {
     background-color: var(--tertiary) !important;
@@ -160,7 +159,9 @@
 .connectionHeader-2MDqhu {
     border-radius: 8px;
 }
-
+.container-3auIfb[style*='background-color: rgb(114, 118, 125);'] {
+    background-color: var(--secondary);
+}
 /* SERVERLIST */
 .members-1998pB{
     border-radius:8px;
@@ -182,7 +183,11 @@
 .botTagRegular-2HEhHi {
     background-color: var(--accent);
 }
-
+/* SEARCHBAR */
+.searchResultsWrap-3-pOjs > *,
+.channelName-1JRO3C {
+    background-color: var(--tertiary);
+}
 /* CHAT */
 .colorStreamerMode-2SJAUN,
 .chat-3bRxxu {
@@ -224,7 +229,7 @@
 
 /* TEXTBAR */
 .channelTextArea-rNsIhG {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 .typing-2GQL18 {
     height: 12px;
@@ -346,6 +351,25 @@
 }
 .scroller-3__pG8 { /* Server Invite */
     background-color: var(--tertiary);
+}
+.perksModal-fSYqOq {
+    background-color: var(--primary) !important;
+}
+.tierHeaderLocked-1s2JJz {
+    background-color: var(--secondary) !important;
+}
+.tierBody-16Chc9 {
+    background-color: var(--tertiary) !important;
+}
+.tierMarkerBackground-3q29am {
+    background: transparent !important;
+}
+.perks-3OsGy8 > * {
+    background-color: var(--secondary) !important;
+}
+.outer-1AjyKL,
+.outer-1AjyKL.interactive-3B9GmY:hover {
+    background-color: var(--primary) !important;
 }
 /* BAR MENTIONS */
 .mentionsBadge-3tC7Mi {
