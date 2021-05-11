@@ -1,3 +1,5 @@
+![Alt text](https://raw.githubusercontent.com/OnscreenProton/deepbluetheme/main/assets/banner.png)
+
 # deepbluetheme
 
 A simple deep blue theme for discord using atom's One Dark Ui palette.
@@ -25,5 +27,8 @@ profile-modals by Discord-Custom-Covers
 Powercord: 
 ```cd powercord/src/Powercord/themes && git clone https://github.com/OnScreenProton/deepbluetheme```
 
+Vizality:
+idk how vizality works
+
 Betterdiscord:
-soon™️
+[link to file](https://github.com/onscreenproton/deepbluetheme/Compiled_CSS/deepbluetheme.theme.css)
