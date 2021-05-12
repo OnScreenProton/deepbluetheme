@@ -66,4 +66,5 @@
   --deprecated-text-input-bg: var(--secondary);
   --deprecated-text-input-border: var(--tertiary);
   --deprecated-quickswitcher-input-background: var(--primary);
+  --brand-experiment: var(--accent) !important;
 }
