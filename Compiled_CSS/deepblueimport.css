@@ -134,7 +134,10 @@
 /* SIDEBAR */
 .sidebar-2K8pFh,
 .container-3w7J-x,
-.children-19S4PO {
+.children-19S4PO,
+.thin-1ybCId,
+.thin-1ybCId.fade-2kXiP2:hover,
+.thin-1ybCId.scrolling-1Cdwk- {
   border-radius: 8px !important;
 }
 
@@ -145,12 +148,18 @@
 }
 
 .container-3w7J-x,
-.privateChannels-1nO12o {
+.privateChannels-1nO12o,
+.thin-1ybCId,
+.thin-1ybCId.fade-2kXiP2:hover,
+.thin-1ybCId.scrolling-1Cdwk- {
   order: 2;
   margin-top: 10px;
 }
 
-.container-3w7J-x {
+.container-3w7J-x,
+.thin-1ybCId,
+.thin-1ybCId.fade-2kXiP2:hover,
+.thin-1ybCId.scrolling-1Cdwk- {
   border-radius: 8px !important;
   background-color: var(--primary);
 }
@@ -181,7 +190,7 @@
 }
 
 .folder-1hbNCn {
-  background-color: var(--tertiary-alpha);
+  background-color: transparent;
 }
 
 /* DMS */
@@ -362,9 +371,16 @@
   background-color: var(--tertiary);
 }
 
+.searchResultsWrap-3-pOjs > * {
+  margin-top: 0px;
+  border-radius: 0px !important;
+}
+
 /* CHAT */
 .colorStreamerMode-2SJAUN,
-.chat-3bRxxu {
+.chat-3bRxxu,
+.pageWrapper-1PgVDX,
+.scroller-1d5FgU {
   border-radius: 8px;
 }
 
@@ -374,7 +390,8 @@
   margin-left: 10px;
 }
 
-.chat-3bRxxu {
+.chat-3bRxxu,
+.pageWrapper-1PgVDX {
   margin-right: 10px;
   margin-bottom: 10px;
 }
@@ -388,6 +405,10 @@
 }
 
 .mentioned-xhSam7::before {
+  background-color: var(--mention-color-alt);
+}
+
+.message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z, .mouse-mode.full-motion .mentioned-xhSam7:hover {
   background-color: var(--mention-color-alt);
 }
 
@@ -452,7 +473,9 @@
 }
 
 /* SEARCHBAR */
-.container-3ayLPN {
+.container-3ayLPN,
+.calendarPicker-2yf6Ci .react-datepicker,
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__header {
   background-color: var(--tertiary) !important;
 }
 
@@ -462,7 +485,13 @@
 }
 
 .option-96V44q:hover,
-.option-96V44q:hover::after {
+.option-96V44q:hover::after,
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day--disabled,
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day--outside-month,
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--disabled,
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--disabled:hover,
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day--disabled,
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day--outside-month {
   background-color: var(--secondary) !important;
 }
 
@@ -605,6 +634,83 @@
   background-color: var(--tertiary-alpha) !important;
 }
 
+.css-1ba14n5-option {
+  background-color: var(--secondary);
+}
+
+.css-rzbxvl-option {
+  background-color: var(--primary);
+}
+
+.css-1yz4bi9-option {
+  background-color: var(--tertiary);
+}
+
+.theme-dark .colorPickerCustom-2CWBn2 {
+  background-color: var(--primary);
+}
+
+.wrapper-1-Fsb8 {
+  background-color: transparent;
+}
+
+/* HEADER */
+.clickable-25tGDB .header-2V-4Sw {
+  border-radius: 8px 8px 0px 0px;
+}
+
+.menu-3sdvDG {
+  background-color: transparent;
+}
+
+.thin-1ybCId .scrollerBase-289Jih,
+.thin-1ybCId.fade-2kXiP2,
+.thin-1ybCId.fade-2kXiP2:hover {
+  margin-top: 0px;
+  border-radius: 0px !important;
+}
+
+.base-1x0h_U {
+  color: #fff;
+}
+
+.container-UC8Ug1 {
+  background-color: var(--primary);
+}
+
+.container-UC8Ug1:hover {
+  background-color: var(--primary-light);
+}
+
+.colorStandard-2KCXvj {
+  color: #fff;
+}
+
+.content-1LAB8Z.templatesList-2E6rTe.thin-1ybCId.scrollerBase-289Jih {
+  background-color: var(--tertiary) !important;
+}
+
+/* TRANSACTION HISTORY (WIP) */
+.theme-dark .paymentPane-3bwJ6A,
+.theme-dark .codeRedemptionRedirect-1wVR4b,
+.theme-dark .expandedInfo-3kfShd,
+.theme-dark .paginator-166-09 {
+  background-color: var(--tertiary);
+}
+
+.theme-dark .bottomDivider-1K9Gao {
+  background-color: var(--secondary);
+}
+
+.theme-dark .bottomDivider-1K9Gao:hover {
+  background-color: var(--primary-light);
+}
+
+/* DISCOVER TAB */
+.scroller-1d5FgU {
+  background-color: var(--primary);
+}
+
 /* BAR MENTIONS */
 .mentionsBadge-3tC7Mi {
   padding-left: 11px;
@@ -636,4 +742,4 @@
   background: none !important;
 }
 
-/*# sourceMappingURL=deepbluetheme.theme.css.map */
+/*# sourceMappingURL=deepblueimport.css.map */
