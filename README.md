@@ -13,6 +13,8 @@ Mention icons are the same design as Pavy#6125's Nebula 3 mention icons.
 
 USRBG by Discord-Custom-Covers
 
+USRBG implementation by LuckFire
+
 Discord watermark font provided by powercord-org
 
 # Addons

@@ -1,0 +1,53 @@
+@import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
+/* popout */
+.userPopout-3XzG_A {
+    .header-2BwW8b {transform: translateZ(0)}
+    .header-2BwW8b { background-color: var(--secondary);}
+    .wrapper-3t9DeA::after {
+        content: "";
+        position: fixed;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        pointer-events: none;
+        opacity: .5;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: var(--user-popout-position) center;
+        background-image: var(--user-background);
+    }
+}
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+    background-color: var(--secondary);
+}
+/* modal */
+.root-SR8cQa > div:not(.body-3ND3kc){
+    transform: translateZ(0);
+
+    .header-QKLPzZ .wrapper-3t9DeA {
+        &::after {
+            content: '';
+            position: fixed;
+            top: 0 !important;
+            left: 0 !important;
+            width: 100%;
+            height: 100%;
+            opacity: .5;
+            z-index: 0 !important;
+            pointer-events: none;
+            background: var(--user-background) center/cover no-repeat;
+        }
+
+        svg {
+            z-index: 1;
+            position: relative;
+        }
+    }
+
+    .headerInfo-30uryT, .tabBarItem-1b8RUP, .activity-1ythUs {
+        z-index: 1;
+        position: relative;
+    }
+}

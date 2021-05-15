@@ -33,111 +33,62 @@
   right: 0;
   background: url('https://raw.githubusercontent.com/powercord-org/powercord-backend/my-awesome-branch/web/src/assets/powercord.svg') center/20px no-repeat;
 } */
-/* MODAL */
-.root-SR8cQa {
+/* popout */
+.userPopout-3XzG_A .header-2BwW8b {
   transform: translateZ(0);
 }
-
-#app-mount .header-QKLPzZ .wrapper-3t9DeA[style*="width: 80px;"] {
-  margin-right: 0 !important;
+.userPopout-3XzG_A .header-2BwW8b {
+  background-color: var(--secondary);
 }
-
-#app-mount .header-QKLPzZ .wrapper-3t9DeA[style*="width: 80px;"]::after {
+.userPopout-3XzG_A .wrapper-3t9DeA::after {
   content: "";
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 0 !important;
+  left: 0 !important;
   width: 100%;
   height: 100%;
   z-index: -1;
-  border-radius: 5px 5px 0 0;
   pointer-events: none;
-  opacity: 0.8;
+  opacity: 0.5;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: var(--user-popout-position) center;
   background-image: var(--user-background);
-  -webkit-mask-image: linear-gradient(#000000, #0000004f);
-  mask-image: linear-gradient(0.25turn, #0009, #0000);
 }
 
-.headerInfo-30uryT,
-.tabBarItem-1b8RUP,
-.activity-1ythUs {
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+  background-color: var(--secondary);
+}
+
+/* modal */
+.root-SR8cQa > div:not(.body-3ND3kc) {
+  transform: translateZ(0);
+}
+.root-SR8cQa > div:not(.body-3ND3kc) .header-QKLPzZ .wrapper-3t9DeA::after {
+  content: "";
+  position: fixed;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  z-index: 0 !important;
+  pointer-events: none;
+  background: var(--user-background) center/cover no-repeat;
+}
+.root-SR8cQa > div:not(.body-3ND3kc) .header-QKLPzZ .wrapper-3t9DeA svg {
   z-index: 1;
   position: relative;
 }
-
-.topSectionNormal-2-vo2m *, .topSectionSpotify-1lI0-P *, .topSectionPlaying-1J5E4n *, .topSectionStreaming-1Tpf5X *, .body-3ND3kc {
+.root-SR8cQa > div:not(.body-3ND3kc) .headerInfo-30uryT, .root-SR8cQa > div:not(.body-3ND3kc) .tabBarItem-1b8RUP, .root-SR8cQa > div:not(.body-3ND3kc) .activity-1ythUs {
   z-index: 1;
-}
-
-.profileBadges-2vWUYb {
-  padding-left: 5px;
-  width: 280px;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.profileBadgeWrapper-1rGSsp {
-  margin-bottom: 5px;
-}
-
-.topSectionNormal-2-vo2m .username-3gJmXY {
-  color: #fff;
-}
-
-/* POPOUT */
-.header-2BwW8b {
-  transform: translateZ(0);
-}
-
-.userPopout-3XzG_A > .body-3iLsc4, .theme-dark .footer-1fjuF6, .header-2BwW8b {
-  background-color: var(--secondary) !important;
-}
-
-#app-mount .userPopout-3XzG_A .wrapper-3t9DeA[style*="width: 80px;"]::after {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  border-radius: 5px 5px 0 0;
-  pointer-events: none;
-  opacity: 0.8;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: var(--user-popout-position) center;
-  background-color: var(--secondary) !important;
-  background-image: var(--user-background) !important;
-  -webkit-mask-image: linear-gradient(#000000, #0000004f);
-  mask-image: linear-gradient(0.25turn, #0009, #0000);
-}
-
-.input-2_SIlA {
-  background-color: var(--tertiary) !important;
-}
-
-.input-2_SIlA:hover {
-  border-color: var(--accent);
-}
-
-.userPopout-3XzG_A .header-2BwW8b,
-.userPopout-3XzG_A .scroller-2FKFPG,
-.userPopout-3XzG_A .footer-1fjuF6,
-.body-3iLsc4 {
-  z-index: 1;
+  position: relative;
 }
 
 /* SIDEBAR */
 .sidebar-2K8pFh,
 .container-3w7J-x,
-.children-19S4PO,
-.thin-1ybCId,
-.thin-1ybCId.fade-2kXiP2:hover,
-.thin-1ybCId.scrolling-1Cdwk- {
+.children-19S4PO {
   border-radius: 8px !important;
 }
 
@@ -148,18 +99,12 @@
 }
 
 .container-3w7J-x,
-.privateChannels-1nO12o,
-.thin-1ybCId,
-.thin-1ybCId.fade-2kXiP2:hover,
-.thin-1ybCId.scrolling-1Cdwk- {
+.privateChannels-1nO12o {
   order: 2;
   margin-top: 10px;
 }
 
-.container-3w7J-x,
-.thin-1ybCId,
-.thin-1ybCId.fade-2kXiP2:hover,
-.thin-1ybCId.scrolling-1Cdwk- {
+.container-3w7J-x {
   border-radius: 8px !important;
   background-color: var(--primary);
 }
@@ -657,10 +602,6 @@
 /* HEADER */
 .clickable-25tGDB .header-2V-4Sw {
   border-radius: 8px 8px 0px 0px;
-}
-
-.menu-3sdvDG {
-  background-color: transparent;
 }
 
 .thin-1ybCId .scrollerBase-289Jih,
