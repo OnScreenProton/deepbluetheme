@@ -3,7 +3,7 @@
 @font-face {
   font-family: "Discord";
   font-weight: 700;
-  src: url("https://raw.githubusercontent.com/powercord-org/powercord-backend/my-awesome-branch/web/src/assets/discord-font.otf") format("opentype");
+  src: url("https://github.com/powercord-org/powercord-backend/blob/my-awesome-branch/packages/web/src/fonts/discord-font.otf?raw=true") format("opentype");
 }
 .wordmark-2iDDfm:after {
   content: "DEEPBLUETHEME";
